@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATES</title>
+    <style>
+      body {
+        background-color: black;
+        background-image: url("grain.png");
+        background-repeat: repeat;
+        margin: 0;
+        padding: 0;
+		display: flex;
+      }
+	  .menu a {
+		display: block;
+		padding: 10px;
+		text-decoration: none;
+		color: black;
+		}
+		.content {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+      }
+      .content a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: red;
+        font-family: "Courier New", Courier, monospace;
+		overflow: hidden;
+      }
+
+      .content img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      @media only screen and (max-width: 600px) {
+         body {
+          background-size: cover;
+          flex-direction: column;
+        }
+        .menu {
+          width: 100%;
+        }
+        .content {
+          font-size: 1.2em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <a href="https://druzhok.co">
+        <img src="HOME BUTTON">
+      </a>
+      <a href="https://druzhok.co/dates">
+        <img src="DATES">
+      </a>
+      <a href="https://druzhok.co/gallery">
+        <img src="GALLERY">
+      </a>
+      <a href="https://druzhok.co/contact">
+        <img src="ABOUT">
+      </a>
+    </div>
+    <div class="content">
+      <a href="#">
+        <img src="poster-1.png">
+        <p>DRUZHOK AT WHATEVER</p>
+      </a>
+      <a href="#">
+        <img src="poster-2.png">
+        <p>LINK</p>
+      </a>
+      <a href="#">
+        <img src="poster-3.png">
+        <p>LINK</p>
+      </a>
+	  <a href="#">
+        <img src="poster-3.png">
+        <p>LINK</p>
+    </div>
+  </body>
+</html>

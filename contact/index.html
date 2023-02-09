@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRUZHOK</title>
+    <style>
+      body {
+        background-color: black;
+        background-image: url("grain.png");
+        background-repeat: repeat;
+        margin: 0;
+        padding: 0;
+		display: flex;
+      }
+	  .menu a {
+		display: block;
+		padding: 10px;
+		text-decoration: none;
+		color: black;
+		}
+		.content {
+        padding: 20px;
+        font-family: "Courier New", Courier, monospace;
+        color: red;
+        font-size: 2em;
+		text-align: center;
+      }
+      @media only screen and (max-width: 600px) {
+         body {
+          background-size: cover;
+          flex-direction: column;
+        }
+        .menu {
+          width: 100%;
+        }
+        .content {
+          font-size: 1.2em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <a href="https://druzhok.co">
+        <img src="HOME BUTTON">
+      </a>
+      <a href="https://druzhok.co/dates">
+        <img src="DATES">
+      </a>
+      <a href="https://druzhok.co/gallery">
+        <img src="GALLERY">
+      </a>
+      <a href="https://druzhok.co/contact">
+        <img src="ABOUT">
+      </a>
+    </div>
+	<div class="content">
+      <p>DRUZHOK CAN BE CONTACTED AT DRUZHOKGRUPPA@GMAIL.COM</p>
+    </div>
+  </body>
+</html>
